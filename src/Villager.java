@@ -1,7 +1,5 @@
-import java.io.IOException;
+
 import java.io.Serializable;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class Villager extends VillaCharacter implements Serializable{
 
@@ -68,24 +66,6 @@ public class Villager extends VillaCharacter implements Serializable{
 		
 		//TODO
 		variation = 0;		
-
-		name = getVillagerName();
-	}
-	
-	private String getVillagerName(){
-		
-		String line = "Error";
-
-		int nameint = SystemVariables.getRandomNum(4);
-		
-		try {
-			line = Files.readAllLines(Paths.get("C:/Users/Dnae/workspace/VillaNova/characters/" + getGender() + "/" + getSize() + "/" + getSpecies() + "/" + "names.txt")).get(nameint);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		return line;
 	}
 
 	public void activateVillager(){
