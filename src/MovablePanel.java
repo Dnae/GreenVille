@@ -26,23 +26,15 @@ public abstract class MovablePanel extends JPanel{
 	}
 	
 	protected void loadImages(){
-		try {
-			
-			String charactercatalog = "C:/Users/Dnae/workspace/VillaNova/characters/" + vc.getGender() + "/" + vc.getSize() + "/" + vc.getSpecies() + "/" + vc.getVariation() + "/i";
-			
-			for(int i = 0; i < 4; i++){
-				imgs[i][0] = ImageIO.read(new File(charactercatalog + i + ".png"));
-			}
-			
-			String clothingcatalog = "C:/Users/Dnae/workspace/VillaNova/clothing/" + vc.getGender() + "/" + vc.getSize() + "/" + vc.getClothing() + "/";
-			
-			
-			for(int i = 0; i < 4; i++){
-				imgs[i][1] = ImageIO.read(new File(clothingcatalog + i + ".png"));
-			}
-				
-		} catch (IOException e) {
-			e.printStackTrace();
+
+		String charactercatalog = "characters/" + vc.getGender() + "/" + vc.getSize() + "/" + vc.getSpecies() + "/" + vc.getVariation() + "/i";
+		for(int i = 0; i < 4; i++){
+			imgs[i][0] = ImageBank.getImage(charactercatalog + i);
+		}
+
+		String clothingcatalog = "clothing/" + vc.getGender() + "/" + vc.getSize() + "/" + vc.getClothing() + "/";
+		for(int i = 0; i < 4; i++){
+			imgs[i][1] = ImageBank.getImage(clothingcatalog + i);
 		}
 	}
 

@@ -28,7 +28,7 @@ public class SaveFile implements Serializable{
 		this.savenum = i;
 				
 		t = new Town();
-		p = new Player("m", "l", "Dnae");
+		p = new Player("m", "m", "Default");
 		
 		savex = 15;
 		savey = 15;
