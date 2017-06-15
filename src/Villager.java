@@ -24,7 +24,7 @@ public class Villager extends VillaCharacter implements Serializable{
 		
 		//RANDOMIZE GENDER
 		if(SystemVariables.getRandomBol()){
-			gender = "m";
+			gender = "f";
 		}
 		else{
 			gender = "f";
