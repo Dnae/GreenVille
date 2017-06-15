@@ -12,7 +12,7 @@ public class Statue extends Structure{
 	}
 	
 	public void specialAction(){
-		SystemVariables.getVillaNova().showSave();
+		SystemVariables.getGreenVille().showSave();
 	}
 
 	@Override

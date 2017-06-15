@@ -135,7 +135,7 @@ public class WorldPanel extends JLayeredPane{
 		else{
 			if(occupiedgrid[x][y] instanceof VillagerPanel){
 				
-				SystemVariables.getVillaNova().villagerDialogue(((VillagerPanel)occupiedgrid[x][y]).getVillager(), playerpanel.getPlayer());
+				SystemVariables.getGreenVille().villagerDialogue(((VillagerPanel)occupiedgrid[x][y]).getVillager(), playerpanel.getPlayer());
 
 			}
 		}

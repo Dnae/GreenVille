@@ -83,7 +83,7 @@ public class DialoguePanel extends ActivityPanel{
 
 			@Override
 			public void mouseReleased(MouseEvent e) {
-				SystemVariables.getVillaNova().endActivity();
+				SystemVariables.getGreenVille().endActivity();
 			}
 		});
 		

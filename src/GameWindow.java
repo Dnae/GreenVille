@@ -56,7 +56,7 @@ public class GameWindow {
 		window.remove(lm);
 		
 		lm = null;
-		VillaNova vn = new VillaNova(sf);
+		GreenVille vn = new GreenVille(sf);
 		SystemVariables.setVillaNova(vn);
 		window.add(vn);
 

@@ -18,7 +18,7 @@ import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
-public final class VillaNova extends JLayeredPane implements ActionListener{
+public final class GreenVille extends JLayeredPane implements ActionListener{
 
 	SaveFile sf;
 	
@@ -34,7 +34,7 @@ public final class VillaNova extends JLayeredPane implements ActionListener{
 	
 	int xDir, yDir;
 	
-	public VillaNova(SaveFile sf){
+	public GreenVille(SaveFile sf){
 		this.sf = sf;
 		
 		keyActions();

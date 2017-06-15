@@ -10,7 +10,7 @@ public final class SystemVariables {
 	static int panelwidth;
 	static int panelheight;
 	
-	static VillaNova vilnov;
+	static GreenVille grenvil;
 	
 	static Random rand = new Random();
 	static Random seedrand;
@@ -35,12 +35,12 @@ public final class SystemVariables {
 		return height;
 	}
 	
-	public static VillaNova getVillaNova(){
-		return vilnov;
+	public static GreenVille getGreenVille(){
+		return grenvil;
 	}
 	
-	public static void setVillaNova(VillaNova vn){
-		vilnov = vn;
+	public static void setVillaNova(GreenVille vn){
+		grenvil = vn;
 	}
 	
 	public static int getRandomNum(int i){
