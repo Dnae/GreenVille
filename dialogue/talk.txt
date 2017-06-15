@@ -1,0 +1,4 @@
+<html>It's a nice day today, enjoy it while you can.</html>
+<html>Are you going somewhere? I'm just strolling around.</html>
+<html>PLAYER_NAME, you look like you work too hard. Maybe you should take a rest?</html>
+<html>I'm feeling kind of sleepy. Maybe I should take a nap?</html>

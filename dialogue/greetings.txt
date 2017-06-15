@@ -1,0 +1,4 @@
+<html>Hi, what do you want, PLAYER_NAME?</html>
+<html>Hi, PLAYER_NAME. You look energic today. Did you want something from me?</html>
+<html>PLAYER_NAME, how's it going?</html>
+<html>What's up, PLAYER_NAME?</html>
